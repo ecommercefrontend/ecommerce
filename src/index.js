@@ -9,6 +9,12 @@ $(document).ready(function() {
 
     $('[data-toggle="tooltip"]').tooltip();
 
+    $('.add-to-cart-btn').click(function() {
+        alert('أضيف المُنتج إلى عربة الشراء');
+    });
+
+    $('#copyright').text("جميع الحقوق محفوظة للمتجر سنة " + new Date().getFullYear());
+
 });
 
 
